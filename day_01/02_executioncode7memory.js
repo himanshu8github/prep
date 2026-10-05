@@ -69,3 +69,18 @@ console.log(square4);
 
 // A new Function Execution Context is created, executed, and then removed after the function returns.
 
+// when an Execution Context is created, it is pushed onto the Call Stack.
+// The Call Stack maintains the order in which Execution Contexts are executed.
+
+// And it follows LIFO — Last In, First Out.
+
+
+// Execution Context created
+//           ↓
+//    Push onto Call Stack
+//           ↓
+//      Execute code
+//           ↓
+//    Context finishes
+//           ↓
+//  Pop from Call Stack
